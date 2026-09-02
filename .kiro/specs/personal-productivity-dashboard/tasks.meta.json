@@ -1,0 +1,282 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Write the full `index.html` document": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280109333
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280124380
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280185783
+      }
+    ],
+    "2.1 Define CSS custom properties and theme tokens": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280109894
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280192787
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280278714
+      }
+    ],
+    "2.2 Implement the responsive dashboard grid": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280110270
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280199165
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280287090
+      }
+    ],
+    "2.3 Style widget components and interactive states": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280110618
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280294376
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280395603
+      }
+    ],
+    "3. Checkpoint — HTML + CSS foundation": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280110748
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280528834
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280579695
+      }
+    ],
+    "4.1 Write the `Theme` IIFE with `_apply()` and `init()`": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280110947
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280300121
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280403573
+      }
+    ],
+    "5.1 Write the `Greeting` IIFE with `_getPrefix`, `_formatDate`, `_formatTime`, `_tick`, and `init()`": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111061
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280420234
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280499470
+      }
+    ],
+    "6.1 Write the `Timer` IIFE with `_format`, `_render`, `_beep`, `_start`, `_stop`, `_reset`, and `init()`": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111215
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280601509
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280697643
+      }
+    ],
+    "7. Checkpoint — Theme, Greeting, Timer": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111350
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280706453
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280807414
+      }
+    ],
+    "8.1 Write the `TodoList` IIFE with `_save`, `_render`, `_esc`, `_add`, `_toggle`, `_delete`, `_edit`, and `init()`": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111487
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280821449
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280919131
+      }
+    ],
+    "9.1 Write the `QuickLinks` IIFE with `_isValidUrl`, `_save`, `_render`, `_addLink`, `_deleteLink`, and `init()`": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111625
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280828212
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280926769
+      }
+    ],
+    "10.1 Add the top-level `DOMContentLoaded` listener at the bottom of `js/app.js`": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111788
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280934873
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280970940
+      }
+    ],
+    "11. Final checkpoint — full integration": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280111929
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280979058
+      },
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788281114462
+      }
+    ],
+    "1. Create the HTML skeleton (`index.html`)": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280186241
+      }
+    ],
+    "2. Build the CSS stylesheet (`css/style.css`)": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280396017
+      }
+    ],
+    "4. Implement the `Theme` IIFE (`js/app.js` — begin file)": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280403897
+      }
+    ],
+    "5. Implement the `Greeting` IIFE": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280499732
+      }
+    ],
+    "6. Implement the `Timer` IIFE": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280697987
+      }
+    ],
+    "8. Implement the `TodoList` IIFE": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280919355
+      }
+    ],
+    "9. Implement the `QuickLinks` IIFE": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280927569
+      }
+    ],
+    "10. Wire all IIFEs together and add `DOMContentLoaded` bootstrap": [
+      {
+        "executionId": "f393c301-2007-49a2-b0dc-48aeb9a3a5e1",
+        "chatSessionId": "sess_71dbb228-b56b-49a8-aa6b-938e4a56d793",
+        "timestamp": 1788280971302
+      }
+    ]
+  }
+}

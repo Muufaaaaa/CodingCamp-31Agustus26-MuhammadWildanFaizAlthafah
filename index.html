@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header / Toggle Theme -->
+        <header class="dashboard-header">
+            <div class="brand-title">Life Dashboard</div>
+            <button id="theme-toggle" class="btn-theme">☀️ Light Mode</button>
+        </header>
+
+        <!-- Main Grid Layout -->
+        <main class="grid-layout">
+            <!-- Card 1: Greeting & Time (Centered) -->
+            <section class="card time-card">
+                <div id="live-clock" class="clock-display">00:00:00</div>
+                <div id="live-date" class="date-display">Loading date...</div>
+                <div class="greeting-container">
+                    <h2 id="greeting-text">Good morning</h2>
+                    <button id="edit-name-btn" class="btn-icon" title="Edit Name">✏️</button>
+                </div>
+                <div id="name-input-container" class="hidden name-edit-row">
+                    <input type="text" id="user-name-input" placeholder="Enter your name...">
+                    <button id="save-name-btn" class="btn-primary">Save</button>
+                </div>
+            </section>
+
+            <!-- Card 2: Focus Timer -->
+            <section class="card timer-card">
+                <h3>Focus Timer</h3>
+                <div id="timer-display" class="timer-display">25:00</div>
+                <div class="timer-settings">
+                    <label for="duration-input">Duration (min):</label>
+                    <input type="number" id="duration-input" value="25" min="1" max="120">
+                </div>
+                <div class="button-group">
+                    <button id="start-timer" class="btn-success">Start</button>
+                    <button id="stop-timer" class="btn-warning">Stop</button>
+                    <button id="reset-timer" class="btn-secondary">Reset</button>
+                </div>
+            </section>
+
+            <!-- Card 3: Tasks (Button beside input) -->
+            <section class="card tasks-card">
+                <h3>Tasks</h3>
+                <div class="task-input-group">
+                    <input type="text" id="task-input" placeholder="Add a new task...">
+                    <button id="add-task-btn" class="btn-primary">Add</button>
+                </div>
+                <ul id="task-list" class="task-list"></ul>
+            </section>
+
+            <!-- Card 4: Quick Links -->
+            <section class="card links-card">
+                <h3>Quick Links</h3>
+                <div class="link-input-group">
+                    <input type="text" id="link-name-input" placeholder="Link name">
+                    <input type="text" id="link-url-input" placeholder="URL (https://...)">
+                    <button id="add-link-btn" class="btn-primary">Add Link</button>
+                </div>
+                <div id="quick-links-container" class="quick-links-grid"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+:root {
+  --bg-color: #030712;
+  --card-bg: #0f172a;
+  --card-border: rgba(0, 242, 254, 0.25);
+  --text-main: #f3f4f6;
+  --text-muted: #94a3b8;
+  --accent-color: #00f2fe;
+  --accent-glow: rgba(0, 242, 254, 0.35);
+  --danger-color: #f43f5e;
+  --success-color: #10b981;
+  --input-bg: #020617;
+}
+
+[data-theme="light"] {
+  --bg-color: #f1f5f9;
+  --card-bg: #ffffff;
+  --card-border: #cbd5e1;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --accent-color: #2563eb;
+  --accent-glow: rgba(37, 99, 235, 0.15);
+  --danger-color: #dc2626;
+  --success-color: #16a34a;
+  --input-bg: #f8fafc;
+}
+
+/* Background Lebih Hidup dengan Radial Glow & Animasi Gradien */
+body {
+  background: 
+    radial-gradient(circle at 10% 20%, rgba(0, 242, 254, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+    linear-gradient(-45deg, #030712, #0f172a, #1e1b4b, #030712);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  color: var(--text-main);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 16px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="light"] body {
+  background: 
+    radial-gradient(circle at 15% 15%, rgba(37, 99, 235, 0.06) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(14, 165, 233, 0.06) 0%, transparent 45%),
+    linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
+  animation: none;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.dashboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 4px;
+}
+
+.brand-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .grid-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .time-card {
+    grid-column: span 2;
+  }
+  body {
+    padding: 24px;
+  }
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 0 15px var(--accent-glow);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  color: var(--accent-color);
+}
+
+/* Time & Greeting Card */
+.time-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.clock-display {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: var(--accent-color);
+  text-shadow: 0 0 15px var(--accent-glow);
+}
+
+.date-display {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.greeting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.greeting-container h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.name-edit-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Timer Card & Spacing Fix */
+.timer-display {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 12px 0;
+  letter-spacing: -1px;
+  color: var(--text-main);
+}
+
+.timer-settings {
+  margin-bottom: 16px;
+}
+
+/* Memperbaiki jarak teks "Duration (min):" agar tidak terlalu mepet ke bawah */
+.timer-settings label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+/* Inputs & Buttons */
+input[type="text"], input[type="number"], input[type="url"] {
+  background-color: var(--input-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text-main);
+  padding: 10px 14px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="url"]:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-primary { background-color: var(--accent-color); color: #030712; }
+[data-theme="light"] .btn-primary { color: #ffffff; }
+.btn-success { background-color: var(--success-color); color: #ffffff; }
+.btn-warning { background-color: #f59e0b; color: #ffffff; }
+.btn-secondary, .btn-theme { background-color: var(--card-border); color: var(--text-main); }
+.btn-icon { background: none; padding: 4px; font-size: 1rem; }
+
+/* Task & Links */
+.task-input-group, .link-input-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.task-input-group input, .link-input-group input {
+  flex: 1;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: var(--input-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.quick-links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.quick-link-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--input-bg);
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-main);
+  border: 1px solid var(--card-border);
+  word-break: break-all;
+}
+
+.hidden {
+  display: none !important;
+}
