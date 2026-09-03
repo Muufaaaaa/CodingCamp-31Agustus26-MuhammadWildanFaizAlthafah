@@ -1,4 +1,4 @@
-# Implementation Plan: Personal Productivity Dashboard
+# Implementation Plan: To-Do List Life Dashboard
 
 ## Overview
 

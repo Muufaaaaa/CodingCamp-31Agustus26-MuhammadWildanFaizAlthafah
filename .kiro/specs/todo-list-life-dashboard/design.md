@@ -1,4 +1,4 @@
-# Design Document — Personal Productivity Dashboard
+# Design Document — To-Do List Life Dashboard
 
 ## Overview
 
